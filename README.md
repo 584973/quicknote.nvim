@@ -25,3 +25,9 @@
     require("quicknote").setup()
   end,
 }
+```
+The command for opening the note is ```:QuickNote```.
+An example shortcut for this:
+```lua
+vim.keymap.set("n", "<leader>qn", "<cmd>QuickNote<CR>", { desc = "Open QuickNote" })
+```
